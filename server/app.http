@@ -1,0 +1,25 @@
+GET http://localhost:8000/api/users
+###
+GET http://localhost:8000/api/users/1
+###
+POST http://localhost:8000/api/users
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "age": 25,
+  "twitter": "@janedoe",
+  "facebook": "janedoe"  
+}
+###
+PUT http://localhost:8000/api/users/{id}
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "age": 26,
+  "twitter": "@john_doe",
+  "facebook": "john.doe"
+}
+###
+DELETE http://localhost:8000/api/users/{id}
