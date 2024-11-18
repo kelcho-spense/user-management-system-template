@@ -50,7 +50,7 @@ A full-stack application for managing users, built with Node.js, Express, SQLite
 
 ## Prerequisites
 
-- **Node.js**: Version 16 or higher.
+- **Node.js**: Version 20 or higher.
 - **pnpm**: Package manager. Install globally with:
   
 ```md
@@ -125,14 +125,10 @@ npm install -g pnpm
 ## License
 
 This project is licensed under the MIT License.
-- **React Hook Form**: Performant form library for React.
-- **Zod**: TypeScript-first schema validation.
-- **Tailwind CSS**: Utility-first CSS framework.
-- **PostCSS**: Tool for transforming CSS.
 
 ## Prerequisites
 
-- **Node.js**: Version 16 or higher.
+- **Node.js**: Version 20 or higher.
 - **pnpm**: Package manager. Install globally with:
   
 ```md
