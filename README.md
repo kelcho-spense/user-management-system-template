@@ -200,7 +200,3 @@ npm install -g pnpm
 - `pnpm build`: Build the project.
 - `pnpm serve`: Serve the built project.
 
-## License
-
-This project is licensed under the MIT License.
-```
